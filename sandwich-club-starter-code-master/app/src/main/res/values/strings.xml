@@ -8,11 +8,13 @@
     <string name="detail_description_label">Description:</string>
     <string name="detail_ingredients_label">Ingredients:</string>
 
+
     <!-- Content descriptions-->
     <string name="sandwich_picture_content_description">Sandwich picture</string>
 
     <!-- Error messages-->
     <string name="detail_error_message">Sandwich data not available</string>
+    <string name="mainName">mainName</string>
 
     <string-array name="sandwich_names">
         <item>Ham and cheese sandwich</item>
@@ -28,9 +30,9 @@
     </string-array>
 
     <string-array name="sandwich_details">
-        <item>{\"name\":
-                {\"mainName\":\"Ham and cheese sandwich\",
-                 \"alsoKnownAs\":[]},
+        <item>{\"name\":{\"mainName\":\"Ham and cheese sandwich\",
+                         \"alsoKnownAs\":[]
+                        },
                  \"placeOfOrigin\":\"\",
                  \"description\":\"A ham and cheese
                                   sandwich is a common type of sandwich. It is made by putting cheese and sliced ham
